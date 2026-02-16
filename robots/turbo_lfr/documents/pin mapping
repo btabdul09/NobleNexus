@@ -1,0 +1,41 @@
+QTR Line Sensor Array (8 Analog Sensors)
+A0 → Sensor 1
+A1 → Sensor 2
+A2 → Sensor 3
+A3 → Sensor 4
+A4 → Sensor 5
+A5 → Sensor 6
+A6 → Sensor 7
+A7 → Sensor 8
+Digital 13 → QTR Emitter Control Pin
+
+Left Motor Driver Connections
+Digital 4 → motorL1 (Direction)
+Digital 3 → motorL2 (Direction)
+Digital 5 → motorL_PWM (Speed PWM)
+Right Motor Driver Connections
+Digital 7 → motorR1 (Direction)
+Digital 8 → motorR2 (Direction)
+Digital 6 → motorR_PWM (Speed PWM)
+
+ESC / Fan (Servo Controlled)
+Digital 9 → ESC Signal
+Button / Sensor Input
+Digital 2 → zai_medregch (Start Button Input)
+Serial Communication
+Pins 0 (RX) and 1 (TX) → USB Serial Communication
+Baud Rate: 9600
+
+Complete Pin Summary Table
+  Pin            Function
+A0–A7        QTR Sensors
+13           QTR Emitter + Built-in LED
+4            Left Motor IN1
+3            Left Motor IN2
+5            Left Motor PWM
+7            Right Motor IN1
+8            Right Motor IN2
+6            Right Motor PWM
+9            ESC Signal
+2            Start Button
+0/1          Serial TX/RX
